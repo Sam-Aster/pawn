@@ -46,7 +46,6 @@ body {
 #header-menu {
     margin: 0px 0px 0px auto;
     padding: 5px 15px;
-    display: block;
 }
 .menu-item {
     padding: 5px;
@@ -71,6 +70,7 @@ body {
 .header-category:hover,
 #header-menu a:hover + .header-category {
     display: block;
+    top: 35px;
 }
 .header-subcategory {
     display: inline-block;
