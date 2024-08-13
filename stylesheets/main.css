@@ -1,0 +1,141 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: chocolate;
+    margin: 4px;
+}
+
+#head {
+    display: flex;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    float: left;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+}
+
+.header {
+    border-radius: 5px 30px;
+    border-style: groove;
+    border-color: chocolate;
+    border-width: 2px;
+    background-color: lightyellow;
+    width: min-content;
+    height: min-content;
+    padding: 1px 10px;
+    align-items: center;
+    display: flex;
+}
+
+.title {
+    border-radius: 3px 15px;
+    border-style: groove;
+    border-color: chocolate;
+    background-color: darkgoldenrod;
+    margin: 1px 5px;
+}
+
+.subtitle {
+    color: brown;
+}
+
+#header-menu {
+    margin: 0px 0px 0px auto;
+    padding: 5px 15px;
+    display: block;
+}
+.menu-item {
+    padding: 5px;
+    text-decoration: none;
+    color: brown;
+    position: relative;
+}
+.head-item {
+    display: inline-flex;
+    height: min-content;
+    padding: 0;
+    margin: -10px 0px;
+}
+.option {
+    width: 30vw;
+    height: max-content;
+}
+.header-category {
+    display: none;
+    position: absolute;
+}
+.header-category:hover,
+#header-menu a:hover + .header-category {
+    display: block;
+}
+.header-subcategory {
+    display: inline-block;
+    width: max-content;
+    padding: 5px;
+}
+.section {
+    display: block;
+    margin: 25px 10px;
+}
+.sub-section {
+    display: inline;
+    width: 100vw;
+}
+#foot {
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px 30px;
+    border-style: groove;
+    border-color: chocolate;
+    border-width: 2px;
+    background-color: lightyellow;
+    width: min-content;
+    height: max-content;
+    padding: 1px 10px;
+}
+
+.footer {
+    display: flex;
+}
+
+#footer-menu {
+    display: flex;
+    padding: 5px;
+    width: 80vw;
+}
+.foot-item {
+    display: inline-block;
+    width: 25vh;
+}
+.footer-category {
+    display: grid;
+    width: 35vw;
+    margin: 20px -110px;
+}
+
+#user-account {
+}
+
+#login-form {
+    display: table;
+}
+
+.form-section
+{
+    display: table-row;
+}
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+label {
+    padding-right: 10px;
+}
+#create-account {
+    display: none;
+}
